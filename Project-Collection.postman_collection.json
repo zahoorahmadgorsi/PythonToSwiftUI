@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "bd50baf0-4eb7-4039-aa92-b1266ab6a471",
+		"name": "Project-Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8995744"
+	},
+	"item": [
+		{
+			"name": "Replicate-API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://services-emilyrewards.envisionmobile.com:3477/replicate",
+					"protocol": "https",
+					"host": [
+						"services-emilyrewards",
+						"envisionmobile",
+						"com"
+					],
+					"port": "3477",
+					"path": [
+						"replicate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TextToImageDiffusion-API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://services-emilyrewards.envisionmobile.com:3477/textToImageDiffusion",
+					"protocol": "https",
+					"host": [
+						"services-emilyrewards",
+						"envisionmobile",
+						"com"
+					],
+					"port": "3477",
+					"path": [
+						"textToImageDiffusion"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
